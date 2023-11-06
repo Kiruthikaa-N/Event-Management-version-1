@@ -1,0 +1,1138 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo img{
+    height:200px;
+
+}
+nav{
+    height:80px;
+    width: 100%;
+    background-color:#e2444450;
+    position:sticky;
+    top:0;
+    box-shadow: 5px 5px 10px #e2444450;
+}
+label.logo img {
+    color:white;
+    font-weight: bold;
+    height:90px;
+    
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 35px;
+}
+nav ul li a{
+    color:black;
+    font-size: 17px;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:white;
+}
+.checkbtn{
+    font-size: 30px;
+    color:black;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+   
+}
+#check{
+    display:none;
+}
+.header{
+    margin:0;
+    padding:0;
+   
+}
+.header .img-parent{
+    position:relative;
+   
+}
+.header .img{
+    height:110vh;
+    width:100%;
+    position: sticky; 
+    z-index: -1;
+}
+
+.header .img-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height:80%;
+    width:100%;
+    background:#cd9b9b50;
+    z-index:1;
+  
+    opacity:0.5;
+}
+.header .img-content{
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:-1;
+    color:white;
+    text-align:center;
+    justify-content: center;
+}
+.header .img-content h1{
+    font-weight:bold;
+    font-family: Brush Script MT;
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 10px black;
+    font-weight: bolder;
+}
+span{
+    font-size: 40px;
+    text-shadow: 5px 5px 10px black;
+    font-weight: bolder;
+}
+body{
+    background-color:#efbebe50 ;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+  
+}
+.gal1 h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px white;
+    color: black;
+    font-family: cursive;
+    margin-top: -20px;
+   
+}
+.border{
+    height: 80%;
+    display: flex;
+    margin-top: -150px;
+}
+.image{
+    width:500px;
+    margin-top: 250px;
+    background-image: url(' static\ resource/images/about me.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 2px solid white;
+    padding:20px;
+    margin-left: 80px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #e2444450 ;
+    
+}
+.text{
+    width:50%;
+    margin-top: 230px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.3rem;
+    align-items: center;
+    margin-right: 100px;
+    color:black;
+    margin-left: 100px;
+}
+.gal h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px white;
+    color: black;
+   
+ 
+    
+}
+.gallery{
+    height: 100vh;
+    width: 100%;
+
+  
+}
+.gal h1{
+    /* margin-top: -230px; */
+    margin-bottom: -14px;
+    font-family: cursive;
+    margin-top: 30px;
+}
+.gallery1{
+    border:1px solid #ccc;
+    background-color:#e2444450 ;
+    padding: 0px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px #e2444450 ;
+    border-radius: 50px 50px 0px 0px;
+}
+.gallery1 img{
+    width:100%;
+    height: auto;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 5px 5px 10px #e2444450;
+}
+.des{
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+#button{
+    border-radius: 50px;
+    height: 30px;
+    width:120px;
+    margin-top: 5px;
+    background-color:#e2444450;
+    box-shadow: 5px 5px 10px ;
+    border-color: white;
+    font-weight: bold;
+}
+.responsive{
+    padding:0 6px;
+    /* float:left; */
+    display: inline-block;
+    margin-left: 95px;
+    width:25%;
+    padding-top: 30px;
+}
+
+.gals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:700px){
+    .responsive{
+        width:50%;
+        margin:6px 0;
+    }
+    
+}
+@media only screen and (max-width:500px){
+    .responsive{
+        width:100%;
+        
+    }
+    
+}
+@media  (min-width:1439px) and (max-width:2500px)
+{
+    .checkbtn{
+        display: none;
+    } 
+    .header .img{
+        height:100%;
+        width:100%;
+    } 
+}
+@media  (min-width:1023px) and (max-width:1439px)
+{
+    .checkbtn{
+        display: none;
+    } 
+    nav ul li{
+        margin:0px 10px;
+    }
+    .text{
+        margin-top:300px;
+        font-size: 1.1rem;
+    }
+    .header .img{
+        height:100%;
+        width:100%;
+    }
+    .image{
+        height: 380px;
+    }
+    .gal1{
+        margin-top: -30px;
+    }
+    .responsive{
+        width:30%;
+        margin-left: 20px;
+    }
+    .para{
+      font-size: 15px !important; 
+       
+    }
+    .price{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .line{
+        width:410px !important;
+    }
+    .reveiw{
+        margin-bottom: 10px;
+    }
+    .star{
+        margin-bottom: 10px;
+    }
+    .content{
+        width:0%;
+    }
+    #app{
+        width: 120px !important;
+    }
+    .galy{
+        margin-left:90px;
+        margin-top: -140px;
+    }  
+    .gallerys{
+        margin-top: 10px;
+    }  
+    .service{
+        padding-top: 120px;
+        
+    }
+    .list{
+        
+    }
+    
+}
+@media  (min-width:767px) and (max-width:1023px)
+{
+    .checkbtn{
+        display:none;
+        
+    }
+    .header .img{
+        height:100%;
+        width:100%;
+    }
+    nav ul li{
+        margin:0px 10px;
+        font-size: 10px;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+    .border{
+        flex-direction: column;
+        margin-top: -230px;
+    }
+    .header .img-content h1{
+        font-size: 45px;
+    }
+    span{
+        font-size: 25px;
+    }
+    .header .img-content{
+        margin-top: -100px;
+    }
+    .image{
+       padding: 100px;
+       border:2px solid white;
+       background-color:none;
+       height:200px;
+       width:100px;
+       margin-left:290px;
+    }
+    .text{
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 25px;
+        margin-left: 90px;
+        width:600px;
+    }
+    .gal1{
+        margin-top: -40px;
+    }
+    .contact{
+        margin-top: 50px;
+    } 
+    #details{
+        width: 100px !important;
+    }
+    .desc{
+        font-size: 13px !important;
+    }
+    .galy{
+        margin-top: -130px;
+    }  
+    .responsives{
+        width: 90% ;
+        padding: 30px 30px;
+    }
+    .gallerys{
+        margin-top: 0px;
+    }
+    .service
+    {
+        padding: 20px;
+        padding-top: 100px;
+    }
+    .logofoot img{
+       margin-left: -40px !important;
+    }
+    .para{
+        font-size: 13px !important;
+    }
+    .pink{
+        font-size: 23px;
+    }
+    .line{
+        width:300px !important;
+        margin-bottom: 20px;
+    }
+    #app{
+        width:100px !important;
+    }
+    .price{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .responsive{
+        margin-left: 50px;
+    }
+    #button{
+        width: 100px;
+    }
+}
+.service{
+    width: 100%;
+    height: 100vh;
+}
+.galy h2{
+    text-align: center;
+    padding: 140px;
+    font-size: 35px;
+    font-family: cursive;
+ }
+div.gallerys {
+    border: 1px solid #ccc;
+    background-color: #e2444450;
+    box-shadow: 5px 5px 10px #e2444450 ;
+  }
+  
+  div.gallerys:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallerys img {
+    width: 100%;
+    height: 40vh;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color:white;
+    box-shadow: 5px 5px 10px whitesmoke;
+    font-size: 20px;
+  }
+  .sspan{
+    color:black;
+    font-size: 15px;
+  }
+  * {
+    box-sizing: border-box;
+    
+  }
+  
+  .responsives {
+    padding: 5px 6px;
+    float: left;
+    width: 24.99999%;
+    margin-top: -90px;
+  }
+  #details{
+    height:5vh;
+    width:30%;
+    font-size: 1rem;
+    background-color: #efbebe50;
+    border-color: white;
+    box-shadow: 5px 3px 12px ;
+    margin-right: 10px;
+  }
+  .abox{
+    display: flex;
+    margin-top: 1%;
+    
+  }
+  .bbox{
+    width: 50%;
+    border:none;
+    height:85vh;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  .cbox{
+    width: 50%;
+    /* border:2px solid black; */
+    height:85vh;
+  }
+  .pink{
+    font-family: cursive;
+    margin-top: 4%;
+    margin-left: 5%;
+  }
+  .weddingimg img{
+    height: 50vh;
+    width: 40vw;
+    margin-top: 3%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 10px #e2444450;
+    background-size: contain;
+  }
+  .reveiw{
+    margin-left: 5%;
+    margin-top: 1%;
+   font-weight: bold;
+  }
+  .checked {
+    color: orange;
+  }
+  .star{
+    margin-left: 5%;
+  }
+  .price{
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  .line{
+    width:58%;
+    margin-left: 5%;
+    height: 5px;
+    background-color: #e2444450;
+    border: white;
+  }
+  .content{
+    margin-top: 8%;
+    width:84%;
+    height:90%;
+  }
+  .para1{
+   font-family: cursive;
+   font-weight: bold;
+   font-size: 19px;
+  }
+  .para{
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  #app{
+    height:5vh;
+    width: 7vw;
+    margin-top: 1%;
+    margin-left: 5%;
+    background-color:#e2444450;
+    box-shadow: 5px 5px 10px ;
+    border-color: white;
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 700px) {
+    .responsives {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsives {
+      width: 100%;
+    }
+  }
+  
+@media  (min-width:424px) and (max-width:767px){
+    .checkbtn{
+        display:block;    
+    }
+    ul{
+        position: fixed;
+        width:50%;
+        height:100vh;
+        background:#f1c4c4;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition:all .5s;
+        display: block;
+    } 
+    #check:checked ~ ul{
+        left:0;
+    }
+    .header .img-content h1{
+        font-size: 40px;
+    }
+    span{
+        font-size: 19px;
+        margin-top: -100px;
+    }
+    .header .img{
+        height:100%;
+        width:100%;
+    }
+    .img-content{
+        margin-top:-180px;
+    }
+    .cont2{
+        width:300px;
+    }
+    .border{
+        flex-direction: column;
+        margin-top: -230px;
+        margin-left: 6%!important;
+    }
+    .image{
+        padding: 100px;
+        border:2px solid white;
+        background-color:none;
+        height:200px;
+        width:100px;
+        margin-left:130px;
+     }
+     .text{
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 25px;
+        margin-left: 90px;
+        width:300px;
+    }
+    .gal{
+        margin-top: 100px;
+    }
+    .responsive{
+        width:50%;
+        margin:6px 0px;
+        margin-left: 30px;
+    }
+    .galy{
+        margin-top: -80px;
+        margin-bottom: -140px;
+    }
+    .gallerys{
+        margin-top: 0;
+        margin-left: 1px !important;
+        margin-right: 10px !important;
+    }
+    .box1{
+        width:300px !important;
+        margin-left: 13px !important;
+    }
+    .box2{
+        width:300px !important;
+        margin-left: -100px !important;
+        padding-right: 80px;
+    }
+    .logofoot img{
+        margin-left: 120px !important;
+    }
+    .content{
+        margin-left: 40px !important;
+    }
+    
+}
+.contact{
+    width: 100%;
+    height:auto;
+    margin-top: 150px;
+    padding-top: 40px;
+}
+.gal2 {
+    justify-content: center;
+}
+
+.box{
+    height: 500px;
+    display: flex;
+    column-gap: 50px;
+    margin: 60px 50px;
+    box-shadow: 5px 5px 10px #e2444450;
+    
+}
+.box1{
+    height: 400px;
+    width: 50%;
+    margin: 60px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px ;
+}
+.gal2 h1{
+    margin-top: 100px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px white;
+    
+}
+#btn{
+    margin-top: 40px;
+    border-color:#e2444450 ;
+    background-color: #e2444450;
+    box-shadow: 5px 5px 10px ;
+    height:100px;
+    width:300px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    text-shadow: 5px 5px 10px #cd9b9b50;
+    flex-wrap: wrap;
+}
+.box2{
+    
+    height: 400px;
+    width: 30%;
+    margin: 60px;
+    background-image: url('static\ resource/images/375145346_1044070816605066_4273741489796006253_n.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px;
+}
+.foot{
+    height:200px;
+    width: 100%;
+    background-color: #e2444450;
+}
+.list{
+    margin-left: 80%;
+    margin-top: -100px;
+    color:white;
+}
+.li{
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+}
+.social-media a
+{
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+    width:40px;
+    height:40px;       
+    background:transparent;
+    border:2px solid rgb(243, 236, 236);
+    border-radius:50%;        
+    font-size:20px;
+    color:rgb(243, 236, 236);        
+    text-decoration:none;
+    margin:3px 3px 3px 0;
+    box-shadow:1px 1px 13px black;
+    transform:translateY(-3px);
+    margin-top: 50px;
+    
+}
+.social-media{
+    text-align: center;
+}
+.copy{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.logofoot img{
+    height: 200px;
+    width: 330px;
+    margin-top: -150px;
+    margin-left: 30px;
+}
+@media  (min-width:374px) and (max-width:446px)
+{
+    .checkbtn{
+        display:block;
+        
+    }
+    ul{
+        position: fixed;
+        width:50%;
+        height:100vh;
+        background:#f1c4c4;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition:all .5s;
+        display: block;
+        
+    } 
+    #check:checked ~ ul{
+        left:0;
+    }
+    .header .img-content h1{
+        font-size: 30px;
+    }
+    span{
+        font-size: 15px;
+        margin-top: -100px;
+    }
+    .header .img{
+        height:100%;
+        width:100%;
+    }
+    .img-content{
+        margin-top:-180px;
+    }
+    .cont2{
+        width:300px;
+    }
+    .border{
+        flex-direction: column;
+        margin-top: -230px;
+        margin-left: 0px;
+    }
+    .image{
+        padding: 100px;
+        border:2px solid white;
+        background-color:none;
+        height:200px;
+        width:100px;
+        margin-left:80px;
+     }
+     .text{
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 25px;
+        margin-left: 60px;
+        width:260px;
+    }
+    .gal h1{
+        margin-top: 120px;
+    }
+    .responsive{
+        width:70%;
+        margin:6px 0;
+        margin-left: 50px;
+    }
+    body{
+        background-color:#efbebe50;
+    }
+    .foot{
+       margin-top: 660px;
+    }
+    .copy{
+        font-size: 18px;
+        margin-top: -8px;
+    }
+    .logofoot img{
+        height:100px;
+        width:180px;
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+    .social-media a{
+        margin-top: 100px;
+        
+    }
+    .contact{
+        margin-top: 1400px;
+        margin-bottom:-500px ;
+    }
+    .gal2 h1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #btn{
+        font-size: 10px;
+        width: 120px;
+        height: 50px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .box2{
+        margin-left: 55px !important;
+        width:150px;
+        height: 400px;
+    }
+    .box1{
+        height:700px !important;
+        width:150px;
+    }
+    .gal1{
+        margin-top: -80px;
+        margin-left: 0px;
+        
+     }
+     .gal1 h1{
+         
+         font-size: 30px;
+     }
+     .gal{
+        margin-top: -60px;
+     }
+     .gallery{
+        margin-top: 90px;
+    }
+    .abox{
+        flex-direction: column;
+    } 
+    .weddingimg img{
+        text-align: center;
+        margin-left: 70px;
+        height: 200px;
+        width: 200px;
+    }
+    .pink{
+        
+        font-size: 1.2rem;
+        width: 150%;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .line{
+        width: 130%;
+        margin-left: 50px;
+    }
+    #app{
+        margin-left: 120px;
+        margin-top: 10px;
+        width:100px;
+    }
+    .reveiw{
+        margin-left: 130px;
+        font-size: 0.8rem;
+        width: 300px;
+        
+    }
+    .star{
+        margin-left: 120px; 
+        width: 300px;
+        margin-top: 10px;
+    }
+    .price{
+        margin-left: 90px; 
+        font-size: 1.2rem;
+        width: 300px;
+        margin-top: 10px;
+
+    }
+    .content{
+        margin-top: -180px;
+        width: 350px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    /* nav{
+        width: 111%;
+    } */
+    .galy h2{
+        font-size: 25px;
+        text-align: center;
+        margin-top: -100px;
+        margin-bottom: -130px;
+        margin-left: -20px;
+    }
+    .service{
+       margin-top: 150px;
+    }
+    .responsives{
+        width:75%;
+        margin-top: -60px;
+        margin: 30px 70px;
+       
+    }
+    .gallerys{
+        margin-left: -50px;
+    }
+    #details{
+        width: 100px;
+    }
+}
+@media  (min-width:319px) and (max-width:374px)
+{
+    .checkbtn{
+        display:block;
+        
+    }
+    ul{
+        position: fixed;
+        width:50%;
+        height:100vh;
+        background:#f1c4c4;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition:all .5s;
+        display: block;
+        
+    } 
+    #check:checked ~ ul{
+        left:0;
+    }
+    .header .img-content h1{
+        font-size: 30px;
+    }
+    span{
+        font-size: 12px;
+        margin-top: -300px;
+       
+    }
+    .header .img{
+        height:100%;
+        width:100%;
+    }
+    .img-content{
+        margin-top:-210px;
+    }
+    .cont2{
+        width:300px;
+    }
+    .border{
+        flex-direction: column;
+        margin-top: -230px;
+    }
+    .image{
+        padding: 100px;
+        border:2px solid white;
+        background-color:none;
+        height:200px;
+        width:100px;
+        margin-left:60px;
+     }
+     .text{
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 25px;
+        margin-left: 50px;
+        width:230px;
+    }
+    .gallery{
+        margin-top: 90px;
+    }
+    .gal1{
+       margin-top: -80px;
+    }
+    .gal1 h1{
+        
+        font-size: 30px;
+    }
+    .gal{
+       font-size:30px;
+      
+    }
+    .responsive{
+        width:70%;
+        margin:6px 0;
+        margin-left: 50px;
+    }
+    .contact{
+        margin-top: 1400px;
+    } 
+    .logofoot img{
+        height: 70px;
+        width: 150px;
+        margin-top: -160px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+    .gal2 h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    #btn{
+        font-size: 10px;
+        width:130px;
+        height: 50px;
+        margin: 20px;
+    }
+    .box2{
+        width:230px;
+        background-size: cover;
+        margin-left: 18px;
+    }
+    .box1{
+        height: 230px;
+        border: none;
+        width:230px;
+        margin-left: 18px;
+    }
+    .box{
+        border: none;
+        /* box-shadow: none; */
+        flex-direction: column;
+        
+        width:270px;
+        margin-left: 20px;
+    }
+    .social-media a{
+        margin-top: 90px;
+    }
+    .copy {
+        font-size: 15px !important;
+    }
+    .abox{
+        flex-direction: column;
+    } 
+    .weddingimg img{
+        text-align: center;
+        margin-left: 40px;
+        height: 200px;
+        width: 200px;
+    }
+    .pink{
+        margin-left: 20px;
+        font-size: 1.2rem;
+        width: 200%;
+    }
+    .line{
+        width: 155%;
+        margin-left: 20px;
+    }
+    #app{
+        margin-left: 90px;
+        margin-top: 10px;
+        width:100px;
+    }
+    .reveiw{
+        margin-left: 100px;
+        font-size: 0.8rem;
+        width: 300px;
+        
+    }
+    .star{
+        margin-left: 90px; 
+        width: 300px;
+        margin-top: 10px;
+    }
+    .price{
+        margin-left: 50px; 
+        font-size: 1.2rem;
+        width: 300px;
+        margin-top: 10px;
+
+    }
+    .content{
+        margin-top: -180px;
+        width: 300px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .galy h2{
+        font-size: 25px;
+        /* text-align: center; */
+        margin-top: 100px;
+        margin-bottom: -130px;
+        margin-left :-30px ;
+
+    }
+    .responsives{
+        width:60%;
+        margin-left: 150px;
+        margin-top: -60px;
+        margin: 30px 70px;
+       
+    }
+    #details{
+        width: 100px;
+    }  
+}
